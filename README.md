@@ -11,7 +11,7 @@ Select File Open online library (Ctrl+Shift+O). A new nested window will appe
 Use the filters to find your robot by brand, payload, ... In this example, we will use a UR10 robot (10 kg payload robot and 1.3 m reach).
 Select Download. The robot should automatically appear in the station in a few seconds.
 The online library can be closed once the robot is loaded
-image Add a Reference Frame A Reference frame allows placing objects with respect to a robot or with respect to other objects in the 3D space (including position and orientation). Note: More information about reference frames in RoboDK in the reference frames section. To add a new reference frame:
+ct to a robot or with respect to other objects in the 3D space (including position and orientation). Note: More information about reference frames in RoboDK in the reference frames section. To add a new reference frame:
 Select Program Add Reference Frame Alternatively, select the equivalent button in the toolbar
 Double click the reference frame (on the tree or on the 3D geometry on the main screen) to enter the coordinates shown in the image (X,Y,Z position and Euler angles for the orientation). The mouse wheel can be used on top of each case to quickly update the position of the reference frame on the main screen. The following colors are used by default: o X coordinate  Red o Y coordinate  Green o Z coordinate  Blue o 1st Euler rotation  Cyan o 2nd Euler rotation  Magenta o 3rd Euler rotation  Yellow Tip: Select ToolsOptionsDisplayDisplay XYZ axis letters to see the Coordinate system axes.
 Select ViewMake reference frames bigger (+) to increase the size of the reference frames
@@ -128,5 +128,6 @@ r.MoveL(p(1354.51,-793.956,621.243,-180,16.2113,180),[-15.1431,-45.9352,20.6798,
 r.ProgFinish(r"""Mainprog""")
 r.ProgSave(r"""C:/Users/Sudharshna/Documents/RoboDK""",r"""Mainprog""",True,r"""E:/RoboDK/Other/VSCodium/VSCodium.exe""")
 Developed by: PRAKASH T RegisterNumber: 212223080037 */ simulation: image
+<img width="1015" height="493" alt="444068094-b4127737-178f-402c-b70c-b52d77e2a1ef" src="https://github.com/user-attachments/assets/87ff9347-80ef-4deb-8d6b-c85a1c397802" />
 
 Results:The painting environment for a serial manipluator has been created and the surface for the same has been thaught.
